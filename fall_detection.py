@@ -8,8 +8,8 @@ from email.mime.multipart import MIMEMultipart
 # Email configuration
 email_user = 'gokuben04@gmail.com'
 email_password = 'vpou bsad rwqo ucbx'  # Update with your application-specific password
-recipient_phone_number = '+919091086541'  # Replace with actual recipient phone number
-carrier_email_domain = 'txt.att.net'  # Replace with carrier domain for email-to-SMS
+recipient_phone_number = '9091086541'  # Replace with actual recipient phone number
+carrier_email_domain = 'sms.textlocal.in'  # Replace with carrier domain for email-to-SMS
 
 def send_sms_alert():
     subject = ''
