@@ -13,7 +13,7 @@ carrier_email_domain = 'sms.textlocal.in'  # Replace with carrier domain for ema
 
 def send_sms_alert():
     subject = ''
-    body = 'A fall has been detected. Please check on the person immediately.'
+    body = 'A fall has been detected. Please check on the person immediately.' 
 
     msg = MIMEMultipart()
     msg['From'] = email_user
